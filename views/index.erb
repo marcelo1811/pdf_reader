@@ -1,2 +1,7 @@
-<h1>Sinatra Boilerplate</h1>
-<p>Author: Marcelo Miyachi</p>
+<h1>Insira o pdf</h1>
+
+<form action="/file_upload" method="post" enctype="multipart/form-data">
+  Arquivo pdf: <br>
+  <input type="file" name="file" accept="application/pdf">
+  <input type="submit">
+</form>
